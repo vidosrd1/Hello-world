@@ -1,0 +1,16 @@
+class Automobil
+def svjetla
+puts "Ukljuci svjetla"
+end
+def initialize
+@motor = false
+@rucna_kocnica = true
+@broj_kilometara = 0
+end
+end
+
+class Kabriolet < Automobil
+def stupi_krov
+pust "Stupi krov!"
+end
+end
